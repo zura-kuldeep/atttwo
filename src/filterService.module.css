@@ -1,0 +1,43 @@
+.main-div{
+    display:flex;
+
+}
+.image-div{
+    width:400px;
+    height:300px;
+    /* padding:5px; */
+}
+.close-btn{
+    border-radius: 50%;
+    border:none;
+    position: absolute;
+    cursor: pointer;
+    top:0;
+    right:0;
+    color: white;
+    background-color: black;
+}
+.close-btn:hover{
+  background-color: red;
+}
+
+.row{
+    overflow-y: scroll;
+    width: 120px;
+    max-height:300px;
+    padding:5px;
+}
+
+.column{
+    /* float: left; */
+    width: 16.66%;
+    position: relative;
+}
+.demo-img{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.demo-img:hover{
+    opacity: 1;
+
+}
